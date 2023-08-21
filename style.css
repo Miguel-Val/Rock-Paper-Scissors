@@ -32,7 +32,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 100px;
    
 }
 
@@ -60,8 +60,25 @@ button:hover {
     transition: none;
     font-size: 20px;
     
+    
 }
 
 .rules-btn:hover {
     transform: none;
+}
+
+.score-points {
+    display: flex;
+    gap: 8px;
+}
+
+.text {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 30px
+}
+
+a{
+    color: black;
+    text-decoration: none;
 }
